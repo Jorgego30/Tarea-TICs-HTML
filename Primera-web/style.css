@@ -4,8 +4,37 @@
 }
 
 .Indice{
-    border: 1px solid black;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
+nav ul li{
+    display: inline-block;
+    border-right: 1px solid black ;
+    margin-right:-4px ;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+nav ul li:first-child{
+    border-left: 1px solid black;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #000000;
+    text-decoration: none;
+}
+  
+nav ul li a:hover {
+    background-color: #ffffff;
+}
 
