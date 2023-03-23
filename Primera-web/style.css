@@ -30,11 +30,71 @@ nav ul li:first-child{
 nav ul li a {
     display: block;
     padding: 10px 20px;
-    color: #000000;
+    color: black;
+    font-weight: bold;
     text-decoration: none;
 }
   
 nav ul li a:hover {
     background-color: #ffffff;
+}
+
+#Explicación-General{
+    width: 50%;
+    margin: 0;
+    border: 1px solid black;
+    text-align: left;
+}
+
+#Explicación-General h2{ 
+    display:inline-block;
+    border: 1px solid black;
+}
+
+#Abatimientos{
+    width: 50%;
+    margin: 0;
+    border: 1px solid black;
+    text-align: left;
+}
+
+#Abatimientos h2{
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#Cambio-de-Planos{
+    width: 50%;
+    margin: 0;
+    border: 1px solid black;
+    text-align: left;
+}
+
+#Cambio-de-Planos h2{
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#Giros{
+    width: 50%;
+    margin: 0;
+    border: 1px solid black;
+    text-align: left;
+}
+
+#Giros h2{
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#enviar{
+    border: 1px solid black;
+    border-radius: 100px;
+    background-color: rgba(92, 190, 0, 0.5);
 }
 
