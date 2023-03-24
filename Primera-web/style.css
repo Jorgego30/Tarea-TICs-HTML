@@ -1,3 +1,8 @@
+body{
+    background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%,
+                                     #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%);
+}
+
 .Encabezado{
     border: 1px solid black;
     text-align: center;
@@ -36,56 +41,61 @@ nav ul li a {
 }
   
 nav ul li a:hover {
-    background-color: #ffffff;
+    background-image: linear-gradient(to bottom right, white,black);
 }
 
 #Explicación-General{
-    width: 50%;
+    width: 73%;
     margin: 0;
     border: 1px solid black;
     text-align: left;
 }
 
-#Explicación-General h2{ 
-    display:inline-block;
-    border: 1px solid black;
-}
+.titulo{
+    text-align: center;
+}   
+
+/* .titulo h2{
+    border: 1px solid black;    
+    padding: 10px;
+    display: inline-block;
+} */
 
 #Abatimientos{
-    width: 50%;
+    width: 73%;
     margin: 0;
     border: 1px solid black;
     text-align: left;
 }
 
-#Abatimientos h2{
+/* #Abatimientos h2{
     display: inline-block;
     border: 1px solid black;
-}
+} */
 
 #Cambio-de-Planos{
-    width: 50%;
+    width: 73%;
     margin: 0;
     border: 1px solid black;
     text-align: left;
 }
 
-#Cambio-de-Planos h2{
+/* #Cambio-de-Planos h2{
     display: inline-block;
     border: 1px solid black;
-}
+} */
 
 #Giros{
-    width: 50%;
+    width: 73%;
     margin: 0;
     border: 1px solid black;
     text-align: left;
 }
 
-#Giros h2{
+/* #Giros h2{
     display: inline-block;
     border: 1px solid black;
-}
+} */
 
 .input{
     border: 1px solid black;
