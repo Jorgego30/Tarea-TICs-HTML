@@ -61,6 +61,12 @@ nav ul li a:hover {
     display: inline-block;
 } */
 
+#Articulos-relacionados{
+    border: 1px solid black;
+    width: 25%;
+    float: right;
+}
+
 #Abatimientos{
     width: 73%;
     margin: 0;
@@ -96,6 +102,12 @@ nav ul li a:hover {
     display: inline-block;
     border: 1px solid black;
 } */
+
+.Caja-de-comentarios{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(25, 191, 212);
+}
 
 .input{
     border: 1px solid black;
